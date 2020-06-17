@@ -8,10 +8,29 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url('/img/background.jpg');
+    background-size: cover;
+    background-position: top center;
 }
 
 .mainContaint{
     flex-grow: 1;
+}
+
+#messageOne{
+    font-size: 20px;
+}
+
+#messageTwo{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 300;
+    width: 155px;
+}
+
+#messageThree{
+    width: 155px;
 }
 
 footer{
