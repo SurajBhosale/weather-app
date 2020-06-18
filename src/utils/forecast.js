@@ -9,7 +9,7 @@ const forecast = (lat, lon, callback) => {
         } else if (body.cod!=="200"){
             callback('Unable to find location', undefined)
         } else {
-            callback(undefined, [body.list[0].main.temp + '°C.', 'RealFeel: '+ body.list[0].main.feels_like]) 
+            callback(undefined, [body.list[0].main.temp + '°C.', 'RealFeel: '+ body.list[0].main.feels_like + ' | ' + body.list[0].weather[0].description]) 
         }
     })
 }
