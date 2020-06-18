@@ -67,3 +67,17 @@ button{
     color: white;
     padding: 8px;
 }
+
+@media (max-width: 500px){
+    #messageOne{
+        color: white;
+    }
+    
+    #messageTwo{
+        color: white;
+    }
+    
+    #messageThree{
+        color: white;
+    }
+}
